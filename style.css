@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+.main{
+    width:860px;
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    border: hidden;
+}
+
+
+.Add_block{
+    display: flex;
+    flex-direction: column;
+      
+    border: 1px solid lightgrey;
+    height:145px;
+    width:100%;
+    
+    
+}
+
+
+.task{
+    
+    
+    border: 1px solid lightgrey;
+    margin: 5px;
+    flex:1;
+    justify-content: stretch;
+    overflow: auto;
+    border-width:5px;  
+    border-style:solid;
+    
+    
+
+}
+.display{
+    
+    
+    border: 1px solid lightgrey;
+    margin: 5px;
+    height: 200px;
+    border-width:5px;  
+    border-style:solid;
+    
+
+    
+}
+.font{
+    display: flex;
+    
+    margin:0px;
+    padding: 0px;
+    text-align: center ;
+    background-color: blue;
+    color:white;
+    border: 1px solid blue;
+}
+    .submit
+    {
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+        padding:0px; 
+        width:100%; 
+       
+       
+     }
+     
+     .horizontal
+     {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin:0px;
+        padding:0px;
+     
+}
+     
+li:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: white;
+}
+li:nth-child(even){
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color:skyblue;
+}
+
+.header{
+    order:1;
+    width: 95%;
+    
+}
+.butt{
+    order:2;
+    width:5%;
+    background-color:slategray;
+}
+.dep{
+    background-color:skyblue;
+
+}

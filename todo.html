@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet">
+    <title>todo list</title>
+   
+</head>
+
+<body>
+    <div class="main">
+        <div class="Add_block">
+            <h3 class="font">ADD</h3>
+          
+            <div class="submit">
+                
+                     
+            <h5><input id="task" type="text" placeholder="TASK"></h5>
+            <h5><input type="button" onclick="AddElinput()" value="ADD" ></h5>
+            </div>
+            <div>
+            <h5><input id="description" type="text" placeholder="DESCRIPTION"></input></h5>
+        </div>
+    </div>
+
+
+        <div class="task">
+                <h3 class="font">Task</h3>
+                <div class="show">
+                <ul class="horizontal" id="display" style="list-style: none;" ></ul>
+            </div>
+        </div>
+        
+        <div class="display">
+                <h3 class="font">Description</h3>
+                <div class="dep">
+                <ul class="horizontal" id="display1" style="list-style: none;" ></ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="test.js"></script>
+    
+    
+</body>
+
+</html>
